@@ -1,0 +1,146 @@
+
+
+body {
+    text-align: left; /* Yazıları sağa yaslar */
+    padding:20px; /* Sağda ve solda 20px boşluk bırakır */
+}
+.navbar {
+    overflow: hidden;
+    background-color: #3A4D39;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ECE3CE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #3A4D39;
+    color: rgb(44, 138, 178);
+}
+body {
+    scroll-behavior: smooth;
+}
+
+
+.section {
+    text-align: left; /* Bölümleri ortalar */
+    background-color: #739072; /* Pastel pembe arka plan rengi */
+    padding: 20px; /* İçerik etrafında biraz boşluk oluşturur */
+}
+
+  body {
+    background-color: #739072; /* Pastel mavi arka plan rengi */
+}
+button {
+    background-color: #3A4D39; 
+    border: none;
+    color: #ECE3CE;
+    padding: 32px 64px; /* Boyut */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #3A4D39;
+    display: flex;
+    justify-content: flex-end;
+}
+.progress-container {
+ 
+    width: 30%;
+    background-color: #ECE3CE;
+    border: 1px solid #3A4D39; /* Dikdörtgenin çerçevesi */
+}
+
+.progress-bar {
+    text-align: right;
+    padding-right: 20px;
+    color: white;
+    line-height: 25px; /* İlerleme çubuğunun yüksekliği */
+    background-color: #4F6F52; /* İlerleme çubuğunun rengi */
+}
+.section {
+    text-align: left; /* Bölümleri ortalar */
+    background-color: #739072; /* Pastel pembe arka plan rengi */
+    padding: 20px; /* İçerik etrafında biraz boşluk oluşturur */
+    font-size: 30px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Butonlar arasındaki boşluk */
+}
+
+.button {
+    padding: 20px 40px;
+    color: #ECE3CE;
+    text-decoration: none;
+}
+
+.linkedin {
+    background-color: #4F6F52;
+}
+
+.github {
+    background-color: #4F6F52;
+}
+
+.gmail {
+    background-color: #4F6F52;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* Diğer stiller */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.navbar-header {
+    padding: 14px 16px;
+    color: #ECE3CE
+}
+.section h1, .section h2 {
+    font-family: 'Arial', sans-serif; /* Change the font family */
+    font-size: 24px; /* Increase the font size */
+    color: #333; /* Darken the text color */
+    text-transform: uppercase; /* Make the text uppercase */
+}
+.social-buttons {
+    display: flex; /* Use a flexible box layout */
+    flex-direction: column; /* Stack the children vertically */
+    align-items: flex-start; /* Align the children to the start (left) */
+    gap: 10px; /* Add some space between the buttons */
+
+}
+.section h1, .section h2 {
+    font-size: 30px; /* Increase the font size */
+}
+#hakkimda img {
+    width: 200px;  /* Fotoğrafın genişliği */
+    height: auto;  /* Yükseklik otomatik olarak ayarlanır */
+}
+.project h3 {
+    font-size: 18px;  /* Yazı boyutunu 14px yapar */
+}
+.navbar, .section, .button, .linkedin, .github, .gmail {
+    border-radius: 10px;  /* Köşeleri 10px yarıçapında bir daire şeklinde yuvarlar */
+}
+#hakkimda button {
+    border-radius: 10px;  /* Köşeleri 10px yarıçapında bir daire şeklinde yuvarlar */
+}
+#hakkimda img {
+    border-radius: 15%;  /* Fotoğrafı tamamen yuvarlar */
+}
